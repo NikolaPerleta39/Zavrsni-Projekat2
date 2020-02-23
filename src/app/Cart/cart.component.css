@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #f0f0f0;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.wrapp,hr{
+    width:50vw;
+    margin: auto;
+}
+img{
+    max-width: 15vw;
+    max-height: 10vh;
+}
+.prva,.sec{
+    display: grid;
+    grid-template-columns: 25vw 10vw 5vw 10vw;
+    margin:4vh auto;
+}
+input{
+    height: 5vh;
+    width: 3vw;
+}
+.cash{
+    display: grid;
+    grid-template-columns: 25vw 25vw ;
+}
+.cash hr{
+    width:25vw
+}
+a{
+    display: block;
+    color: black;
+}
+.in,.tot{
+    display: flex;
+    justify-content: space-between;
+    margin:4vh auto;
+}
+button{
+    width: 25vw;
+    color:white;
+    background-color: black;
+    border:none;
+    padding: 2%;
+}
+.item{
+    display: flex;
+}
+.link{
+    margin-left: 3vw;
+}
+.link a{
+    margin-top: 2vh;
+}
+.mar{
+    margin-left: 7vw;
+}

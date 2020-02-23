@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+
+}
+img{
+    max-width:35vw;
+    max-height: 55vh;
+
+}
+.opisP{
+    margin-left: 5vw;
+}
+.txt{
+    width: 20vw;
+}
+.txt,input,h2,button{
+    margin-bottom: 3vh;
+    display: block;
+}
+input{
+    background-color: #fff;
+    width: 5vw;
+    height: 5vh;
+    margin-top: 2vh;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 16vw;
+    border:none;
+    height: 6vh;
+}
+h2{
+    font-weight: 500;
+}

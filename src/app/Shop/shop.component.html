@@ -1,0 +1,56 @@
+<div class="wrapp">
+    <div class="kategorije">
+        <p>Categories</p>
+        <ul>
+            <li class="liv"><a routerLink="/shop/LivingRoom" role="button" (click)="LivingRoom()">Living Room</a></li>
+            <li class="bed"><a routerLink="/shop/BedRoom" role="button" (click)="Bedroom()">Bedroom</a></li>
+            <li class="kit"><a routerLink="/shop/Kitchen" role="button" (click)="Kitchen()">Kitchen</a></li>
+            <li class="bat"><a routerLink="/shop/Bathroom" role="button" (click)="Bathroom()">Bathroom</a></li>
+        </ul>
+    </div>
+    <div class="ponuda" [ngSwitch]="k">
+        <div class="bedr" *ngSwitchCase="1">
+            <div role="listitem" class="item">
+                <img src="assets/Resursi/krevet.jpg" alt="">
+                <h4><a href="/shop/product/krevet">Bed</a></h4>
+                <p>RSD 15550,00</p>
+            </div>
+            <div role="listitem" class="item">
+            <img src="assets/Resursi/livingRoom2.jpg" alt="">
+            <h4><a href="/shop/product/livingRoom2">Living Room</a></h4>
+                <p>RSD 45550,00</p>
+            </div>
+        </div>
+        <div class="kitc" *ngSwitchCase="2">
+            <div role="listitem" class="item">
+                <img src="assets/Resursi/bedRoom.jpg" alt="">
+                <h4><a href="/shop/product/bedRoom">Bed room</a></h4>
+                <p>RSD 25550,00</p>
+            </div>
+            <div role="listitem" class="item">       
+                <img src="assets/Resursi/radniSto.jpg" alt="">
+                <h4><a href="/shop/product/radniSto">Table</a></h4>
+                <p>RSD 5550,00</p>
+            </div>
+        </div>
+        <div class="bath" *ngSwitchCase="3">
+            <div role="listitem" class="item">
+            <img src="assets/Resursi/kitchen.jpg" alt="">
+            <h4><a href="/shop/product/kitchen">Kitchen</a></h4>
+                <p>RSD 35550,00</p>
+            </div>
+            <div role="listitem" class="item">
+            <img src="assets/Resursi/stolica_sto.jpg" alt="">
+            <h4><a href="/shop/product/stolica_sto">Table and chair</a></h4>
+                <p>RSD 4550,00</p>
+            </div>
+        </div>
+        <div class="livi" *ngSwitchCase="4">
+            <div role="listitem" class="item">
+            <img src="assets/Resursi/nighttable.jpg" alt="">
+            <h4><a href="/shop/product/nighttable">Night table</a></h4>
+                <p>RSD 5000,00</p>
+            </div>
+        </div>
+    </div>
+</div>

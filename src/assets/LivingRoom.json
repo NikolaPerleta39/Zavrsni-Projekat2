@@ -1,0 +1,9 @@
+{
+    "name":"LivingRoom",
+    "products":[
+        
+                {"name":"Sofa", "price":1000, "image":"" }
+        
+        
+            ]
+    }

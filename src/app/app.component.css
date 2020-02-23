@@ -1,0 +1,75 @@
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+   
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+
+}
+.logo img{
+    width: 10vw;
+}
+.slika{
+    width: 2.3vw;
+    border-radius: 50%;
+}
+.dole{
+    width: 1.3vw;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+/* SideBar */
+
+aside{
+    position: fixed;
+    top:50vh;
+    right:0;
+    width: 5vw;
+}
+aside img{
+    width: 2vw;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+    margin: 1vh auto;
+}
+article{
+    width: 90vw;
+    text-align: center;
+    margin: 2vh auto;
+    background-color: white;
+    padding:5vh 5vw;
+    box-sizing: border-box;
+}
+article p,article h2{
+    padding:8vh 4vw;
+}
+
+.chat{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width:15vw;
+    padding: 2vh 1vw;
+    position: fixed;
+    top:90vh;
+    right: 0;
+}
